@@ -1,0 +1,379 @@
+/*
+Theme Name: Mary And Sophie
+Description: Sample Child Theme
+Author: WooThemes
+Template: storefront
+Version: 1.0
+*/
+
+@import url("../storefront/style.css");
+
+/*
+
+INSTRUCTIONS:
+
+You need to change 'canvas' to the name to parent theme folder.
+
+Please use the supplied custom.css for your customizations. 
+This file should not have any CSS in it.
+
+*/
+
+
+/* ------------------- header ------------------- */
+.site-header {
+	background-color: transparent;
+}
+.storefront-primary-navigation {
+	background: transparent;
+}
+
+
+/* ------------------- site ------------------- */
+.site-main {
+    margin-bottom: 0;
+}
+.site-footer {
+	padding: 0 0 1.618em;
+}
+.footer-widgets {
+    padding-top: 0;
+}
+.woocommerce-breadcrumb {
+	margin-bottom: 0;
+	border-bottom: 0px;
+	background: transparent;
+}
+
+
+/* ------------------- generales woocommerce ------------------- */
+/*.woocommerce-breadcrumb,*/ .hentry .entry-header h1 {
+	display: none;
+}
+.storefront-sorting select, .variations .value select {
+	background: transparent;
+    height: 33px;
+    margin-top: -5px;
+    border-color: #eee;
+}
+.single-product div.product table.variations .value {
+	margin-top: 1em;
+}
+ul.products {
+	margin-left: 30px;
+}
+div.pp_woocommerce div.ppt {
+	display: none;
+}
+.single-product div.product form.cart .button, ul.products li.product .button {
+    background: transparent;
+    box-shadow: none;
+    color: #000;
+    border: 1px #ccc solid;
+    transition: 0.2s;
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+}
+.single-product div.product form.cart .button:hover, ul.products li.product .button:hover {
+    background: #000;
+    box-shadow: none;
+    color: #FFF;
+    border: 1px #000 solid;
+    transition: 0.2s;
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;	
+}
+.storefront-full-width-content.single-product .related ul.products li.product, .site-main ul.products li.product {
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+	transition: all 0.2s;
+	margin-right: 3%;
+}
+.storefront-full-width-content.single-product .related ul.products li.product, .site-main ul.products li.product {
+	padding-bottom: 20px;
+}
+.storefront-full-width-content.single-product .related ul.products li.product:hover, .site-main ul.products li.product:hover {
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+	transition: all 0.2s;
+}
+.related .products .product .button {
+	display: none;
+}
+.woocommerce-message {
+    background-color: #000;
+}
+
+/* ------------------- generales ------------------- */
+.box_left, .box_right {
+	width: 50%;
+	float: left;
+}
+.cntctfrm_contact_form {
+	color: #ccc;
+	font-weight: 200;
+}
+.cntctfrmpr_field_wrap {
+	margin: 0 0 18px;
+}
+.cntctfrm_contact_form input.cntctfrm_contact_submit {
+	float: right;
+}
+a:focus {
+    outline: none;
+}
+
+/* ------------------- blog ------------------- */
+.blog_box {
+	/*width: 31%;*/
+	width: 303px;
+    display: block;
+    position: relative;
+    float: left;
+    background: #fff;
+    margin: 10px 10px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.01);
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+}
+.blog_box:hover {
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+	transition: all 0.2s;
+}
+.contentPost {
+	padding: 20px;
+}
+.contentPost h2 {
+	font-size: 1.3em;
+    letter-spacing: -1px;
+    line-height: 26px;
+    max-height: 60px;
+    min-height: 60px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.contentPost p {
+    color: #7e7e7e;
+    line-height: initial;
+    font-weight: 400;
+    max-height: 120px;
+    min-height: 120px;
+}
+.contentPost span {
+	clear: both;
+	position: relative;
+	display: block;
+	color: #97568B;
+	font-size: 0.8em;
+}
+.imagePost {
+    background-color: #ccc;
+	padding-top: 180px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p:empty { display: none; }
+
+
+/* ------------------- contact ------------------- */
+
+.left, .right {
+	float: left;
+	width: 50%;
+	margin-top: 40px;
+}
+.twitter_top, .facebook_top, .mail_top {
+    background-position: left center;
+    opacity: 0.7;
+    transition: all 0.2s;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 25px;
+}
+.twitter_top:hover, .facebook_top:hover, .mail_top:hover {
+	opacity: 0.2;
+	transition: all 0.2s;
+}
+.twitter_top {
+	background-image: url('../mary_and_sophie/images/twitter.svg');
+}
+.facebook_top {
+	background-image: url('../mary_and_sophie/images/facebook.svg');
+}
+.mail_top {
+	background-image: url('../mary_and_sophie/images/mail.svg');
+}
+.social_opacity {
+	font-weight: 400;
+    color: #93979f;
+}
+
+/* ------------------- contact form ------------------- */
+.cntctfrm_contact_form input[type="text"], .cntctfrm_contact_form textarea {
+    background-color: transparent;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #ddd;
+}
+.cntctfrm_one_column, .cntctfrm_column, .cntctfrm_input {
+	max-width: 100%!important;
+}
+.cntctfrm_contact_submit, #subscribe-submit input[type="submit"] {
+	background: transparent!important;
+    box-shadow: none!important;
+    color: #000!important;
+    border: 1px #ccc solid!important;
+    transition: 0.2s!important;
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px!important;
+}
+.cntctfrm_contact_submit:hover, #subscribe-submit input[type="submit"]:hover {
+    background: #000!important;
+    box-shadow: none!important;
+    color: #FFF!important;
+    border: 1px #000 solid!important;
+    transition: 0.2s!important;
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px!important;
+}
+
+/* ------------------- footer ------------------- */
+.site-footer {
+	background: transparent;
+}
+.widget_nav_menu ul li:before {
+	display: none;
+}
+.footer-widgets {
+	border-bottom: 0px solid transparent;
+}
+.site-info {
+	padding: 0 0 2.618em 0;
+	display: none;
+}
+
+/* ------------------- footer social ------------------- */
+.twitter_btn, .facebook_btn, .instagram_btn {
+	width: 25px;
+	height: 25px;
+	display: block;
+	background-size: cover;
+	background-position: center center;
+	opacity: 0.7;
+	transition: all 0.2s;
+}
+.twitter_btn:hover, .facebook_btn:hover, .instagram_btn:hover {
+	opacity: 0.2;
+	transition: all 0.2s;
+}
+.twitter_btn {
+	background-image: url('../mary_and_sophie/images/twitter.svg');
+}
+.facebook_btn {
+	background-image: url('../mary_and_sophie/images/facebook.svg');
+}
+.instagram_btn {
+	background-image: url('../mary_and_sophie/images/instagram.svg');
+}
+.paypal {
+	width: 55px;
+	height: 55px;
+	display: block;
+	float: right;
+	background-size: cover;
+	background-position: center center;
+	opacity: 0.7;
+	transition: all 0.2s;
+}
+.paypal {
+	background-image: url('../mary_and_sophie/images/paypal.svg');
+}
+.text_footer {
+	text-align: right;
+	margin: 0;
+	line-height: 13px;
+    font-size: 14px;
+}
+.textwidget ul.social {
+    float: right;
+    clear: both;
+    display: block;
+    width: 100%;
+}
+.textwidget ul.social li {
+	float: right;
+	margin-left: 10px;
+}
+.woocommerce-ordering, .woocommerce-result-count {
+	float: right;
+}
+.woocommerce-ordering {
+	 margin-right: 0;
+	 margin-left: 1em;
+ }
+ .footer-widget-2 {
+    margin-right: 4%!important;
+    width: 15%!important;
+ }
+
+/* ------------------- footer newsletter ------------------- */
+ 
+#subscribe-email input[type="email"] {
+	background-color: transparent;
+	box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
+	border-bottom: 1px solid #ccc!important;
+}
+.site-info {
+	float: left;
+}
+.mexico {
+    float: right;
+    padding: 2.618em 0;
+    background: url('../mary_and_sophie/images/mexico.svg') no-repeat right center;
+    background-size: 37px;
+    padding-right: 50px;
+}
+
+
+/* ------------------- media mobile ------------------- */
+@media (min-width: 0px) and (max-width: 668px) {
+	.columns-4 ul.products {
+		
+	}
+	.columns-4 ul.products li.product {
+		width: 100%!important;
+	}
+	.footer-widget-4 .widget_text .textwidget img {
+		float: left!important;
+	}
+	.textwidget ul.social {
+		float: none!important;
+		height: 30px!important;
+	}
+	#text-6 {
+		display: none!important;
+	}
+	#text-8, #text-11 {
+		margin: 0 0 1.631em!important;
+	}
+	.text_footer, .paypal, .textwidget ul.social li, .mexico {
+		float: left!important;
+	}
+	.paypal {
+		clear: both!important;
+	}
+	#nav_menu-3 {
+		margin: 0!important;
+	}
+	.footer-widget-1 .widget {
+		margin-bottom: 0!important;
+	}
+	.footer-widget-2 {
+		width: 90%!important;
+	}
+	.mexico {
+		margin: 0!important;
+	    margin-top: -37px!important;
+	}
+	.site-info {
+		clear: both!important;
+		padding: 0!important;
+	}
+}
+

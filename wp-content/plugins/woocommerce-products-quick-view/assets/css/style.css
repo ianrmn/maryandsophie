@@ -1,0 +1,82 @@
+/*Quick View Under Image*/
+
+body #main div.box_content div.box_item .entry-item.sticky_product .thumbnail .quick_view_ultimate_content_under a{
+	display: none !important;
+}
+
+a.quick_view_ultimate_under_button {
+	white-space: nowrap;
+	text-decoration:none !important;
+	display: inline-block !important;
+	text-decoration: none;
+	position: relative;
+	cursor: pointer;
+}
+.quick_view_ultimate_content_under a.quick_view_ultimate_under_button:hover {
+	opacity:0.9;
+}
+
+/*Quick View On Hover*/
+.quick_view_ultimate_container {
+	display:none !important;
+}
+.product_hover .quick_view_ultimate_container {
+	display: block !important;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	text-align:center;
+	z-index:999;
+}
+.quick_view_ultimate_container .quick_view_ultimate_content {
+	width: 100%;
+	text-align:center;
+	clear:both;
+	height:auto;
+	max-height:100%;
+	position:relative;
+	display:block;
+}
+.product_hover .quick_view_ultimate_container span{display:block;}
+.product_hover .quick_view_ultimate_container span {
+	vertical-align:middle;
+	white-space: nowrap;
+	text-decoration:none !important;
+	display: inline-block !important;
+	text-decoration: none;
+	position: relative;
+	cursor: pointer;
+	z-index:1;
+}
+#fancybox-outer {
+	padding:0px !important;
+}
+#fancybox-content .quick_view_popup_loading, #cboxContent .quick_view_popup_loading {
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10001;
+	width:100%;
+	height:100%;
+}
+#fancybox-content .quick_view_popup_loading {
+	background: url('../images/fancy_loading.gif') no-repeat center center rgba(0, 0, 0, 0.8) !important ;	
+}
+#cboxContent .quick_view_popup_loading {
+	background: url('../images/color_loading.gif') no-repeat center center rgba(255, 255, 255, 0.8) !important ;	
+}
+.ad-preloads {
+	position: absolute;
+	left: -9000px;
+	top: -9000px;
+}
+@media only screen and (max-width: 568px) {
+	#fancybox-content {
+		border:5px solid #FFFFFF !important;
+		width:auto !important;
+	}
+	#fancybox-outer {
+		padding:0px !important;
+	}
+}

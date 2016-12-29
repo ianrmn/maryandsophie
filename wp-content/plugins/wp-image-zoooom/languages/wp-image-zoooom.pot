@@ -1,0 +1,255 @@
+# Copyright (C) 2015 WP Image Zoooom
+# This file is distributed under the same license as the WP Image Zoooom package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Image Zoooom 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-image-zoooom\n"
+"POT-Creation-Date: 2015-10-13 11:20:57+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: image-zoooom.php:51 image-zoooom.php:58 includes/image-zoom.php:36
+#: includes/image-zoom.php:43
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/image-zoom-admin-general.php:26
+#: includes/image-zoom-admin-template.php:25
+msgid "General Settings"
+msgstr ""
+
+#: includes/image-zoom-admin-general.php:28
+#: includes/image-zoom-admin-template.php:27
+msgid "Zoom Settings"
+msgstr ""
+
+#: includes/image-zoom-admin-general.php:62
+#: includes/image-zoom-admin-template.php:155
+msgid "Save changes"
+msgstr ""
+
+#: includes/image-zoom-admin-template.php:82
+msgid "General"
+msgstr ""
+
+#: includes/image-zoom-admin-template.php:85
+msgid "Lens"
+msgstr ""
+
+#: includes/image-zoom-admin-template.php:88
+msgid "Zoom Window"
+msgstr ""
+
+#: includes/image-zoom-admin.php:29 includes/image-zoom-admin.php:30
+msgid "Image Zoooom"
+msgstr ""
+
+#: includes/image-zoom-admin.php:89
+msgid "Lens Shape"
+msgstr ""
+
+#: includes/image-zoom-admin.php:91
+msgid "No Lens"
+msgstr ""
+
+#: includes/image-zoom-admin.php:92
+msgid "Circle Lens"
+msgstr ""
+
+#: includes/image-zoom-admin.php:93
+msgid "Square Lens"
+msgstr ""
+
+#: includes/image-zoom-admin.php:94
+msgid "With Zoom Window"
+msgstr ""
+
+#: includes/image-zoom-admin.php:100
+msgid "Cursor Type"
+msgstr ""
+
+#: includes/image-zoom-admin.php:102
+msgid "Default"
+msgstr ""
+
+#: includes/image-zoom-admin.php:103
+msgid "Pointer"
+msgstr ""
+
+#: includes/image-zoom-admin.php:104
+msgid "Crosshair"
+msgstr ""
+
+#: includes/image-zoom-admin.php:105
+msgid "Move"
+msgstr ""
+
+#: includes/image-zoom-admin.php:111
+msgid "Animation Easing Effect"
+msgstr ""
+
+#: includes/image-zoom-admin.php:113
+msgid ""
+"A number between 0 and 200 to represent the degree of the Animation Easing "
+"Effect"
+msgstr ""
+
+#: includes/image-zoom-admin.php:118
+msgid "Lens Size"
+msgstr ""
+
+#: includes/image-zoom-admin.php:121
+msgid ""
+"For Circle Lens it means the diameters, for Square Lens it means the width"
+msgstr ""
+
+#: includes/image-zoom-admin.php:125 includes/image-zoom-admin.php:178
+msgid "Border Thickness"
+msgstr ""
+
+#: includes/image-zoom-admin.php:131 includes/image-zoom-admin.php:191
+msgid "Border Color"
+msgstr ""
+
+#: includes/image-zoom-admin.php:136 includes/image-zoom-admin.php:208
+msgid "Fade Time"
+msgstr ""
+
+#: includes/image-zoom-admin.php:139
+msgid "The amount of time it takes for the Lens to slowly appear or dissapear"
+msgstr ""
+
+#: includes/image-zoom-admin.php:143
+msgid "Tint"
+msgstr ""
+
+#: includes/image-zoom-admin.php:145
+msgid ""
+"A color that will layed on top the of non-magnified image in order to "
+"emphasize the lens"
+msgstr ""
+
+#: includes/image-zoom-admin.php:149
+msgid "Tint Color"
+msgstr ""
+
+#: includes/image-zoom-admin.php:154
+msgid "Tint Opacity"
+msgstr ""
+
+#: includes/image-zoom-admin.php:160
+msgid "Zoom Window Width"
+msgstr ""
+
+#: includes/image-zoom-admin.php:166
+msgid "Zoom Window Height"
+msgstr ""
+
+#: includes/image-zoom-admin.php:172
+msgid "Distance from the Main Image"
+msgstr ""
+
+#: includes/image-zoom-admin.php:184
+msgid "Shadow Thickness"
+msgstr ""
+
+#: includes/image-zoom-admin.php:188
+msgid "Use 0px to remove the shadow"
+msgstr ""
+
+#: includes/image-zoom-admin.php:196
+msgid "Rounded Corners"
+msgstr ""
+
+#: includes/image-zoom-admin.php:202
+msgid "Mousewheel Zoom"
+msgstr ""
+
+#: includes/image-zoom-admin.php:204
+msgid "When using the mousewheel, the zoomed level of the image will change"
+msgstr ""
+
+#: includes/image-zoom-admin.php:211
+msgid ""
+"The amount of time it takes for the Zoom Window to slowly appear or disappear"
+msgstr ""
+
+#: includes/image-zoom-admin.php:215
+msgid "Enable the zoom on WooCommerce products"
+msgstr ""
+
+#: includes/image-zoom-admin.php:220
+msgid "Enable the zoom on mobile devices"
+msgstr ""
+
+#: includes/image-zoom-admin.php:225
+msgid "Force it to work on WooCommerce"
+msgstr ""
+
+#: includes/image-zoom-admin.php:249 includes/image-zoom-admin.php:265
+msgid "Your settings have been saved."
+msgstr ""
+
+#: includes/right_columns.php:4 includes/right_columns.php:16
+msgid "WP Image Zoooom Pro"
+msgstr ""
+
+#: includes/right_columns.php:7
+msgid ""
+"The Free version is great, but our users find the Pro version to be really "
+"awesome. Here is why:"
+msgstr ""
+
+#: includes/right_columns.php:9
+msgid "Works with WooCommerce variations"
+msgstr ""
+
+#: includes/right_columns.php:10
+msgid "You can place a text on the image like a watermark"
+msgstr ""
+
+#: includes/right_columns.php:11
+msgid "You can choose the zoom window position (left or right from the image)"
+msgstr ""
+
+#: includes/right_columns.php:12
+msgid "Works with Portfolio images"
+msgstr ""
+
+#: includes/right_columns.php:13
+msgid "Works with Easy Digital Downloads featured images"
+msgstr ""
+
+#: includes/right_columns.php:14
+msgid "Custom Theme Support"
+msgstr ""
+
+#: includes/right_columns.php:21
+msgid "Like this Plugin?"
+msgstr ""
+
+#: includes/right_columns.php:24
+msgid "Rate Plugin"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Image Zoooom"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wp-image-zoooom/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Add zoom effect over the an image, whether it is an image in a post/page or "
+"the featured image of a product in a WooCommerce shop"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Diana Burduja"
+msgstr ""

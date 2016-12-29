@@ -1,0 +1,20 @@
+.woozoom-form-table .field_checkbox ul {
+	margin:0;
+	max-height: 150px;
+	overflow-y: auto;
+}
+
+.woozoom-form-table .field_checkbox ul li {
+	float:left;
+	width:33.33%;
+	margin:0 0 15px 0;
+}
+
+.woozoom-form-table .field_choosen {
+	min-width:100%;
+}
+
+.woozoom-form-table input[type="text"] {
+	height:auto !important;
+	line-height:normal !important;
+}

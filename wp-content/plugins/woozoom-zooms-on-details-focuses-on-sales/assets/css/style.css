@@ -1,0 +1,8 @@
+.zoomWrapper {
+	position: relative;
+	width:100% !important;
+}
+
+.zoomWrapper img, .jcarousel img {
+	padding:0;
+}
